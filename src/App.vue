@@ -8,6 +8,8 @@
       <router-link to="/axios">Axios</router-link>
     </div>
     <router-view />
+    <h1>{{ $t("title") }}</h1>
+    <p>{{ $t("text") }}</p>
   </div>
 </template>
 
